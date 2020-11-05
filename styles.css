@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+.container {
+    display: grid;
+
+}
+.header {
+    min-height: 100px;
+    padding: 10px 80px;
+}
+.header .logo {
+    width: 100px;
+}
+.header a {
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 5px 15px;
+    float: right;
+    margin-top: 20px;
+}
+.header a:hover {
+    color: white;
+    background-color: blue;
+}
+/* box--------------------------------------- */
+.box-text {
+    min-height: 413px;
+    background: rgb(24, 1, 54);
+    text-align: center;
+    position: relative;
+}
+.box-text h1 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+}
+.box-text p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 31px;
+    margin-bottom: 55px;
+}
+.box-text a {
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    background: rgb(3, 62, 255);
+    padding: 10px 25px;
+    border-radius: 55px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.box-text a:hover {
+    background: cyan;
+    color: rgb(24, 1, 54);
+}
+.back {
+    text-align: center;
+}
+.back .bg2 {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.back p {
+    font-size: 18px;
+    color: rgb(24, 1, 54);
+    
+}
+.back .bg3 {
+    margin-top: 0;
+    width: 400px;
+    height: 350px;
+}
+/* CONTACT---------------------------------------- */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-row-gap: 40px;
+    margin-bottom: 80px;
+    margin-top: 0;
+    
+}
+.contact-1 {
+    display: grid;
+    grid-template-areas: 
+    'insta header'
+    'insta para';
+    grid-gap: 30px;
+}
+.contact-1 img {
+    grid-area: insta;
+}
+.contact-1 h2 {
+    grid-area: header;
+    color: rgb(24, 1, 54);
+    font-size: 30px;
+}
+.contact-1 p {
+    grid-area: para;
+    color: rgb(24, 1, 54);
+    font-weight: bold;
+}
+.contact-2 {
+    display: grid;
+    grid-template-areas: 
+    'insta header'
+    'insta para';
+    grid-gap: 30px;
+    
+}
+.contact-2 img {
+    grid-area: insta;
+    
+}
+.contact-2 h2 {
+    grid-area: header;
+    color: rgb(24, 1, 54);
+    font-size: 30px;
+}
+.contact-2 p {
+    grid-area: para;
+    color: rgb(24, 1, 54);
+    font-weight: bold;
+}
+.line {
+    width: 42%;
+    color: rgb(221, 221, 221);
+}
+.link-1 {
+    width: 220px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    background: rgb(3, 62, 255);
+    padding: 10px 25px;
+    border-radius: 55px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+.link-1:hover {
+    background: cyan;
+    color: rgb(24, 1, 54);
+}
+.link-2 {
+    width: 220px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(58, 70, 248);
+}
+.links-0 {
+    text-align: center;
+    min-height: 180px;
+}
+/* FOOTER----------------------------------------- */
+footer {
+    background: rgb(24, 1, 54);
+    color: #fff;
+    
+}
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+footer h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.links {
+    padding: 60px 100px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 345px;
+    
+}
+.links ul {
+    list-style: none;
+}
+.links ul li a {
+    line-height: 30px;
+}
+.line-2 {
+    
+    width: 87%;
+    color: white;
+    margin-left: 85px;
+}
+.language .images {
+    margin-top: 20px;
+}
+.images img {
+    height: 25px;
+    background-color: white;
+    background: rgb(201, 200, 200);
+    margin: 0 5px;
+}
+select {
+    margin-top: 15px;
+    padding: 8px 50px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+/* PART-2--------------------------------- */
+.part {
+    margin-top: 25px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px 100px;
+    height: 150px;
+}
+.part a {
+    color: white;
+}
+.part-1 h1 {
+    background: #fff;
+    color: #000;
+    width: 85px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.part-1 ul {
+    display: flex;
+    list-style: none;
+}
+.part-1 ul li {
+    margin: 0 20px;
+    font-size: 12px;
+}
+.part-2 {
+    font-size: 12px;
+}
+#para {
+    margin-bottom: 20px;
+}
+.part-2 p {
+    width: 550px;
+}
